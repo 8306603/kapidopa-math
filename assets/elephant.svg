@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  width="1100"
+  height="1354"
+  viewBox="0 0 1100 1354">
+
+  <title>Little Elephant Mascot</title>
+  <desc>Pure vector elephant mascot based on the supplied reference. Layered groups: head, eyes, ears, mouth, body, belly.</desc>
+
+  <defs>
+    <linearGradient id="blueMain" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#9BD7FF"/>
+      <stop offset="100%" stop-color="#6EB7F3"/>
+    </linearGradient>
+    <linearGradient id="blueSoft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B9E5FF"/>
+      <stop offset="100%" stop-color="#78C1F6"/>
+    </linearGradient>
+    <linearGradient id="pinkEar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD6DA"/>
+      <stop offset="100%" stop-color="#FF9FAF"/>
+    </linearGradient>
+    <linearGradient id="pinkEarInner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFADB8"/>
+      <stop offset="100%" stop-color="#F57C8E"/>
+    </linearGradient>
+    <linearGradient id="ivory" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#F5F1E8"/>
+    </linearGradient>
+    <linearGradient id="trunkBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A9DFFF"/>
+      <stop offset="100%" stop-color="#67B4F1"/>
+    </linearGradient>
+    <linearGradient id="mouthGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#891421"/>
+      <stop offset="100%" stop-color="#5E0E18"/>
+    </linearGradient>
+    <radialGradient id="eyeGrad" cx="36%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#4C170C"/>
+      <stop offset="100%" stop-color="#1E0905"/>
+    </radialGradient>
+  </defs>
+
+  <!-- EARS -->
+  <g inkscape:groupmode="layer" inkscape:label="ears" id="ears">
+    <path d="M395,220
+             C315,95 170,65 75,150
+             C-5,222 2,376 62,463
+             C23,540 54,662 140,707
+             C178,727 228,718 263,696
+             C223,576 227,436 270,330
+             C307,283 347,245 395,220 Z"
+          fill="url(#blueSoft)" stroke="#3A120A" stroke-width="18" stroke-linejoin="round"/>
+    <path d="M705,220
+             C785,95 930,65 1025,150
+             C1105,222 1098,376 1038,463
+             C1077,540 1046,662 960,707
+             C922,727 872,718 837,696
+             C877,576 873,436 830,330
+             C793,283 753,245 705,220 Z"
+          fill="url(#blueSoft)" stroke="#3A120A" stroke-width="18" stroke-linejoin="round"/>
+
+    <path d="M322,211
+             C258,144 155,147 103,226
+             C61,290 66,390 115,452
+             C85,521 99,598 148,639
+             C169,656 197,661 221,650
+             C207,543 227,420 265,330
+             C280,290 299,247 322,211 Z"
+          fill="url(#pinkEar)" stroke="none"/>
+    <path d="M778,211
+             C842,144 945,147 997,226
+             C1039,290 1034,390 985,452
+             C1015,521 1001,598 952,639
+             C931,656 903,661 879,650
+             C893,543 873,420 835,330
+             C820,290 801,247 778,211 Z"
+          fill="url(#pinkEar)" stroke="none"/>
+
+    <path d="M297,269
+             C247,224 166,230 127,286
+             C96,331 104,386 143,421
+             C112,459 109,528 144,566
+             C163,586 188,594 211,586
+             C211,495 227,405 258,337
+             C270,309 283,286 297,269 Z"
+          fill="url(#pinkEarInner)" stroke="none"/>
+    <path d="M803,269
+             C853,224 934,230 973,286
+             C1004,331 996,386 957,421
+             C988,459 991,528 956,566
+             C937,586 912,594 889,586
+             C889,495 873,405 842,337
+             C830,309 817,286 803,269 Z"
+          fill="url(#pinkEarInner)" stroke="none"/>
+  </g>
+
+  <!-- BODY -->
+  <g inkscape:groupmode="layer" inkscape:label="body" id="body">
+    <!-- torso -->
+    <path d="M360,748
+             C323,800 298,868 293,951
+             L269,1120
+             C262,1164 280,1199 324,1214
+             C353,1224 382,1215 397,1194
+             L433,1128
+             L480,1128
+             L511,1192
+             C529,1229 577,1229 596,1192
+             L630,1128
+             L679,1128
+             L714,1194
+             C729,1215 758,1224 787,1214
+             C831,1199 849,1164 842,1120
+             L818,951
+             C813,868 788,800 751,748
+             C651,706 460,706 360,748 Z"
+          fill="url(#blueMain)" stroke="#3A120A" stroke-width="18" stroke-linejoin="round"/>
+
+    <!-- left arm -->
+    <path d="M338,815
+             C304,841 278,885 261,924
+             C249,952 251,995 280,1013
+             C308,1030 337,1018 351,995
+             L391,908
+             C404,878 388,834 338,815 Z"
+          fill="url(#blueMain)" stroke="#3A120A" stroke-width="18" stroke-linejoin="round"/>
+    <!-- right arm -->
+    <path d="M762,815
+             C796,841 822,885 839,924
+             C851,952 849,995 820,1013
+             C792,1030 763,1018 749,995
+             L709,908
+             C696,878 712,834 762,815 Z"
+          fill="url(#blueMain)" stroke="#3A120A" stroke-width="18" stroke-linejoin="round"/>
+
+    <!-- hands -->
+    <path d="M264,944
+             C245,949 235,972 244,992
+             C252,1011 270,1018 286,1009
+             C292,1026 313,1035 330,1025
+             C347,1015 349,992 336,978
+             C329,968 314,958 298,958
+             C289,946 276,941 264,944 Z"
+          fill="url(#ivory)" stroke="none"/>
+    <path d="M836,944
+             C855,949 865,972 856,992
+             C848,1011 830,1018 814,1009
+             C808,1026 787,1035 770,1025
+             C753,1015 751,992 764,978
+             C771,968 786,958 802,958
+             C811,946 824,941 836,944 Z"
+          fill="url(#ivory)" stroke="none"/>
+
+    <!-- feet -->
+    <path d="M284,1158
+             C270,1182 274,1212 299,1224
+             C318,1234 341,1228 350,1210
+             C360,1230 391,1234 408,1217
+             C424,1200 418,1171 400,1157
+             C366,1135 315,1137 284,1158 Z"
+          fill="url(#ivory)" stroke="none"/>
+    <path d="M816,1158
+             C830,1182 826,1212 801,1224
+             C782,1234 759,1228 750,1210
+             C740,1230 709,1234 692,1217
+             C676,1200 682,1171 700,1157
+             C734,1135 785,1137 816,1158 Z"
+          fill="url(#ivory)" stroke="none"/>
+
+    <!-- tail -->
+    <path d="M811,1012
+             C852,1036 900,1045 939,1023
+             C962,1010 975,991 990,970"
+          fill="none" stroke="#3A120A" stroke-width="18" stroke-linecap="round"/>
+    <path d="M811,1012
+             C852,1036 900,1045 939,1023
+             C962,1010 975,991 990,970"
+          fill="none" stroke="#78BFF3" stroke-width="11" stroke-linecap="round"/>
+    <path d="M982,969
+             C998,943 1028,925 1042,952
+             C1056,978 1030,1016 997,1028
+             C989,1008 985,989 982,969 Z"
+          fill="#5FA7E6" stroke="#3A120A" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M1015,975
+             C1024,969 1032,962 1037,953
+             C1040,971 1028,991 1009,1002
+             C1007,991 1009,983 1015,975 Z"
+          fill="#3E87CF" opacity="0.9"/>
+  </g>
+
+  <!-- BELLY -->
+  <g inkscape:groupmode="layer" inkscape:label="belly" id="belly">
+    <path d="M439,760
+             C407,808 391,865 390,937
+             C389,1019 428,1081 488,1107
+             C532,1126 578,1125 620,1107
+             C682,1081 718,1018 717,937
+             C716,866 701,810 668,761
+             C601,735 507,735 439,760 Z"
+          fill="url(#ivory)" stroke="none"/>
+    <path d="M438,760
+             C458,791 500,811 552,811
+             C604,811 646,791 666,760
+             C603,739 500,739 438,760 Z"
+          fill="#DCEEF8" opacity="0.9"/>
+  </g>
+
+  <!-- HEAD -->
+  <g inkscape:groupmode="layer" inkscape:label="head" id="head">
+    <path d="M253,321
+             C307,224 416,176 550,176
+             C684,176 793,224 847,321
+             C889,395 900,515 866,623
+             C842,701 788,754 699,781
+             C621,804 478,804 400,781
+             C311,754 258,701 234,623
+             C200,515 211,395 253,321 Z"
+          fill="url(#blueMain)" stroke="#3A120A" stroke-width="18" stroke-linejoin="round"/>
+
+    <!-- white muzzle / cheeks -->
+    <path d="M178,597
+             C178,548 215,523 260,526
+             C304,529 340,547 370,576
+             C407,611 452,630 550,630
+             C648,630 693,611 730,576
+             C760,547 796,529 840,526
+             C885,523 922,548 922,597
+             C922,674 866,735 788,766
+             C721,793 632,805 550,805
+             C468,805 379,793 312,766
+             C234,735 178,674 178,597 Z"
+          fill="url(#ivory)" stroke="none"/>
+
+    <!-- cheeks -->
+    <ellipse cx="263" cy="608" rx="48" ry="40" fill="#F78C9B"/>
+    <ellipse cx="837" cy="608" rx="48" ry="40" fill="#F78C9B"/>
+
+    <!-- trunk -->
+    <path d="M557,485
+             C572,437 605,403 639,404
+             C678,404 696,438 687,475
+             C677,519 658,557 653,603
+             C648,645 624,678 585,690
+             C540,704 496,690 468,665
+             C447,647 449,623 468,604
+             C493,579 520,562 536,535
+             C545,520 550,503 557,485 Z"
+          fill="url(#trunkBlue)" stroke="#3A120A" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M621,447
+             C635,430 653,433 659,447
+             C666,463 657,481 643,488
+             C629,481 619,466 621,447 Z"
+          fill="#4B8FD0" opacity="0.8"/>
+    <path d="M563,553
+             C565,579 579,596 603,603"
+          fill="none" stroke="#5F9FD8" stroke-width="11" stroke-linecap="round" opacity="0.75"/>
+    <path d="M529,570
+             C531,595 542,611 562,617"
+          fill="none" stroke="#5F9FD8" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- brows -->
+    <ellipse cx="383" cy="383" rx="44" ry="31" fill="url(#ivory)"/>
+    <ellipse cx="717" cy="383" rx="44" ry="31" fill="url(#ivory)"/>
+  </g>
+
+  <!-- EYES -->
+  <g inkscape:groupmode="layer" inkscape:label="eyes" id="eyes">
+    <ellipse cx="360" cy="514" rx="80" ry="88" fill="#FFFFFF"/>
+    <ellipse cx="740" cy="514" rx="80" ry="88" fill="#FFFFFF"/>
+    <ellipse cx="369" cy="518" rx="52" ry="72" fill="url(#eyeGrad)"/>
+    <ellipse cx="731" cy="518" rx="52" ry="72" fill="url(#eyeGrad)"/>
+    <circle cx="392" cy="480" r="17" fill="#FFFFFF"/>
+    <circle cx="708" cy="480" r="17" fill="#FFFFFF"/>
+  </g>
+
+  <!-- MOUTH -->
+  <g inkscape:groupmode="layer" inkscape:label="mouth" id="mouth">
+    <path d="M429,610
+             C445,684 484,730 550,735
+             C616,730 655,684 671,610
+             C634,634 595,646 550,647
+             C505,646 466,634 429,610 Z"
+          fill="url(#mouthGrad)" stroke="#3A120A" stroke-width="15" stroke-linejoin="round"/>
+    <path d="M469,700
+             C493,673 523,661 550,661
+             C577,661 607,673 631,700
+             C613,724 583,738 550,740
+             C517,738 487,724 469,700 Z"
+          fill="#F55E83"/>
+    <circle cx="431" cy="608" r="13" fill="#3A120A"/>
+    <circle cx="669" cy="608" r="13" fill="#3A120A"/>
+  </g>
+</svg>

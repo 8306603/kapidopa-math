@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>《动物派对数学》官网设计稿方案对比</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #f5f6f8;
+      color: #1f2937;
+      padding: 40px 20px 80px;
+      line-height: 1.6;
+    }
+    .header {
+      max-width: 1100px;
+      margin: 0 auto 36px;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: #111827;
+    }
+    .header p {
+      font-size: 1.05rem;
+      color: #6b7280;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .badge {
+      display: inline-block;
+      background: #eef2ff;
+      color: #4f46e5;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 4px 14px;
+      border-radius: 9999px;
+      margin-bottom: 14px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+      border: 1px solid #e5e7eb;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .card-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #111827;
+    }
+    .card-tag {
+      background: #fff7ed;
+      color: #ea580c;
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 9999px;
+    }
+    .card-desc {
+      color: #4b5563;
+      font-size: 0.98rem;
+      margin-bottom: 20px;
+    }
+    .img-wrapper {
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid #f3f4f6;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+      background: #fafafa;
+    }
+    .img-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-wrapper:hover img {
+      transform: scale(1.01);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="badge">UI 设计稿提案</span>
+    <h1>《动物派对数学》官网极简设计方案</h1>
+    <p>去 AI 模板化 · 仅保留「首页、功能介绍、帮助中心、隐私政策」四大核心板块</p>
+  </div>
+
+  <div class="container">
+    <!-- Option A -->
+    <section class="card">
+      <div class="card-header">
+        <h2 class="card-title">方案 A：日系绘本 · 温润居中风格 (Warm Paper & Picture Book)</h2>
+        <span class="card-tag">极简克制 / 温暖纸感</span>
+      </div>
+      <p class="card-desc">
+        <strong>特点：</strong>柔和米白底色，大标题居中排布，四只小动物横向展示，下方排列 3 个纯粹的功能卡片。完全摆脱过度包装的 AI 营销味，如一本干净的儿童数学绘本。
+      </p>
+      <div class="img-wrapper">
+        <img src="design-options/option-a.jpg" alt="方案 A 预览图">
+      </div>
+    </section>
+
+    <!-- Option B -->
+    <section class="card">
+      <div class="card-header">
+        <h2 class="card-title">方案 B：苹果生态 · 极简左右分栏风格 (Apple Studio & Split Hero)</h2>
+        <span class="card-tag">延续 MindCheck 原生质感</span>
+      </div>
+      <p class="card-desc">
+        <strong>特点：</strong>继承类似 MindCheck 的苹果官方展示质感。悬浮胶囊导航栏（Pill Nav），左侧为圆角设备展示卡（萌宠画面），右侧为应用介绍与官方黑色 App Store 下载徽标，现代纯净。
+      </p>
+      <div class="img-wrapper">
+        <img src="design-options/option-b.jpg" alt="方案 B 预览图">
+      </div>
+    </section>
+
+    <!-- Option C -->
+    <section class="card">
+      <div class="card-header">
+        <h2 class="card-title">方案 C：独立手作 · 文具黑板风格 (Indie Stationery & Craft)</h2>
+        <span class="card-tag">类似 PolarPop / PocketCass 个性拟物</span>
+      </div>
+      <p class="card-desc">
+        <strong>特点：</strong>汲取 PolarPop 和 PocketCass 的拟物独立手作风格。以算术小黑板（7 + 8 = 15）为视觉中心，小动物贴纸环绕在黑板旁，下方是便签戳印质感卡片，极具独立辨识度。
+      </p>
+      <div class="img-wrapper">
+        <img src="design-options/option-c.jpg" alt="方案 C 预览图">
+      </div>
+    </section>
+  </div>
+</body>
+</html>

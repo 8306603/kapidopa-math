@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="344" height="454" viewBox="0 0 344 454">
+  <defs>
+    <linearGradient id="furGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFA13B"/>
+      <stop offset="1" stop-color="#F58B27"/>
+    </linearGradient>
+    <linearGradient id="bellyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF5"/>
+      <stop offset="1" stop-color="#F4E7CF"/>
+    </linearGradient>
+    <linearGradient id="tongueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF6C8A"/>
+      <stop offset="1" stop-color="#F24B74"/>
+    </linearGradient>
+    <radialGradient id="eyeGrad" cx="35%" cy="25%" r="75%">
+      <stop offset="0" stop-color="#4D1A10"/>
+      <stop offset="1" stop-color="#160803"/>
+    </radialGradient>
+  </defs>
+
+  <!-- BODY -->
+  <g inkscape:groupmode="layer" inkscape:label="body" id="body">
+    <ellipse cx="170" cy="438" rx="138" ry="12" fill="#A7ADB2" opacity="0.32"/>
+    <!-- tail behind body -->
+    <path d="M258 291 C306 263 339 287 337 331 C335 369 302 389 264 379 C247 374 242 353 254 341 C266 329 279 330 287 340 C294 349 291 359 285 365 C307 364 321 349 321 330 C321 307 300 299 278 310 Z" fill="url(#furGrad)" stroke="#2B0E06" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M286 322 C300 315 307 325 306 338 C305 352 294 359 282 360 C287 353 288 346 283 340 C278 334 278 328 286 322 Z" fill="#FFFDF5"/>
+    <!-- torso with standing legs & crotch arch -->
+    <path d="M84 278 C108 249 135 239 171 239 C208 239 237 251 257 281 C275 308 281 351 267 395 C269 408 273 416 276 424 C272 430 220 430 214 424 C202 413 186 396 170 396 C154 396 138 413 126 424 C120 430 68 430 64 424 C67 416 71 408 73 395 C63 352 66 306 84 278 Z" fill="url(#furGrad)" stroke="#2B0E06" stroke-width="7" stroke-linejoin="round"/>
+    <!-- left arm -->
+    <path d="M86 292 C58 302 42 318 31 337 C24 349 31 361 44 365 C57 369 73 360 84 344 C92 332 97 315 99 302 Z" fill="url(#furGrad)" stroke="#2B0E06" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M43 334 C32 340 31 352 39 359 C48 367 63 362 68 352 C75 354 82 349 84 341 C87 331 78 324 69 326 C61 324 51 327 43 334 Z" fill="#FFFDF5" stroke="#2B0E06" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M47 349 C43 354 44 360 47 363 M61 346 C58 352 59 359 62 362" fill="none" stroke="#2B0E06" stroke-width="4" stroke-linecap="round"/>
+    <!-- right arm -->
+    <path d="M253 292 C281 302 297 318 308 337 C315 349 308 361 295 365 C282 369 266 360 255 344 C247 332 242 315 240 302 Z" fill="url(#furGrad)" stroke="#2B0E06" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M296 334 C307 340 308 352 300 359 C291 367 276 362 271 352 C264 354 257 349 255 341 C252 331 261 324 270 326 C278 324 288 327 296 334 Z" fill="#FFFDF5" stroke="#2B0E06" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M292 349 C296 354 295 360 292 363 M278 346 C281 352 280 359 277 362" fill="none" stroke="#2B0E06" stroke-width="4" stroke-linecap="round"/>
+    <!-- standing paws (3 rounded toe lobes grounded on shadow) -->
+    <!-- left paw -->
+    <path d="M63 420 C67 410 80 405 95 405 C111 405 123 411 127 420 C131 426 128 436 123 438 C117 440 112 438 110 435 C108 439 103 442 94 442 C84 442 79 439 77 435 C74 439 66 441 57 438 C53 436 54 427 63 420 Z" fill="#FFFDF5"/>
+    <path d="M63 420 C54 427 53 436 57 438 C66 441 74 439 77 435 C79 439 84 442 94 442 C103 442 108 439 110 435 C112 438 117 440 123 438 C128 436 131 426 127 420" fill="none" stroke="#2B0E06" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M77 435 C77 429 78 424 79 420" fill="none" stroke="#2B0E06" stroke-width="4" stroke-linecap="round"/>
+    <path d="M110 435 C110 429 109 424 108 420" fill="none" stroke="#2B0E06" stroke-width="4" stroke-linecap="round"/>
+    <!-- right paw -->
+    <path d="M277 420 C273 410 260 405 245 405 C229 405 217 411 213 420 C209 426 212 436 217 438 C223 440 228 438 230 435 C232 439 237 442 246 442 C256 442 261 439 263 435 C266 439 274 441 283 438 C287 436 286 427 277 420 Z" fill="#FFFDF5"/>
+    <path d="M277 420 C286 427 287 436 283 438 C274 441 266 439 263 435 C261 439 256 442 246 442 C237 442 232 439 230 435 C228 438 223 440 217 438 C212 436 209 426 213 420" fill="none" stroke="#2B0E06" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M263 435 C263 429 262 424 261 420" fill="none" stroke="#2B0E06" stroke-width="4" stroke-linecap="round"/>
+    <path d="M230 435 C230 429 231 424 232 420" fill="none" stroke="#2B0E06" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- BELLY -->
+  <g inkscape:groupmode="layer" inkscape:label="belly" id="belly">
+    <path d="M128 274 C145 260 196 260 213 275 C226 288 235 318 232 344 C229 368 208 388 171 388 C134 388 113 368 110 344 C107 318 115 289 128 274 Z" fill="url(#bellyGrad)"/>
+    <path d="M120 269 C137 280 203 280 220 269 C211 261 194 256 170 256 C147 256 129 261 120 269 Z" fill="#E8D7B9" opacity="0.55"/>
+  </g>
+
+  <!-- EARS -->
+  <g inkscape:groupmode="layer" inkscape:label="ears" id="ears">
+    <path d="M38 131 C23 94 29 42 47 23 C58 12 72 14 86 21 C104 30 121 45 134 63 L106 117 Z" fill="url(#furGrad)" stroke="#2B0E06" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M302 131 C317 94 311 42 293 23 C282 12 268 14 254 21 C236 30 219 45 206 63 L234 117 Z" fill="url(#furGrad)" stroke="#2B0E06" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M51 111 C44 80 50 49 64 38 C74 31 93 48 108 68 L86 107 Z" fill="#FFF8E9"/>
+    <path d="M289 111 C296 80 290 49 276 38 C266 31 247 48 232 68 L254 107 Z" fill="#FFF8E9"/>
+    <path d="M62 92 C59 72 63 55 71 51 C78 48 91 62 99 74 L82 99 Z" fill="#F58D95" opacity="0.92"/>
+    <path d="M278 92 C281 72 277 55 269 51 C262 48 249 62 241 74 L258 99 Z" fill="#F58D95" opacity="0.92"/>
+  </g>
+
+  <!-- HEAD -->
+  <g inkscape:groupmode="layer" inkscape:label="head" id="head">
+    <path d="M66 83 C92 57 130 47 170 47 C211 47 249 57 274 84 C296 108 307 139 306 177 C305 225 285 252 252 269 C231 280 201 285 170 285 C139 285 108 280 87 269 C54 252 34 225 33 177 C32 139 43 108 66 83 Z" fill="url(#furGrad)" stroke="#2B0E06" stroke-width="7" stroke-linejoin="round"/>
+    <!-- cream lower face -->
+    <path d="M39 187 C57 173 77 173 98 185 C111 193 125 198 143 197 C157 195 165 190 170 185 C175 190 183 195 197 197 C215 198 229 193 242 185 C263 173 283 173 301 187 C300 224 283 247 252 263 C231 274 201 279 170 279 C139 279 109 274 88 263 C57 247 40 224 39 187 Z" fill="#FFFDF5"/>
+    <!-- muzzle bridge -->
+    <path d="M113 172 C127 157 147 151 170 151 C194 151 214 157 228 172 C238 183 239 198 230 211 C219 228 196 234 170 234 C144 234 121 228 110 211 C101 198 102 183 113 172 Z" fill="#FFFDF5"/>
+    <!-- cheek blush -->
+    <ellipse cx="67" cy="196" rx="18" ry="15" fill="#FA8E8E" opacity="0.9"/>
+    <ellipse cx="273" cy="196" rx="18" ry="15" fill="#FA8E8E" opacity="0.9"/>
+  </g>
+
+  <!-- EYES -->
+  <g inkscape:groupmode="layer" inkscape:label="eyes" id="eyes">
+    <ellipse cx="111" cy="160" rx="21" ry="27" fill="url(#eyeGrad)"/>
+    <ellipse cx="229" cy="160" rx="21" ry="27" fill="url(#eyeGrad)"/>
+    <ellipse cx="105" cy="149" rx="6" ry="8" fill="#FFFFFF"/>
+    <ellipse cx="223" cy="149" rx="6" ry="8" fill="#FFFFFF"/>
+    <ellipse cx="117" cy="168" rx="4" ry="6" fill="#7B321C" opacity="0.35"/>
+    <ellipse cx="235" cy="168" rx="4" ry="6" fill="#7B321C" opacity="0.35"/>
+    <!-- brows -->
+    <ellipse cx="113" cy="119" rx="17" ry="11" fill="#FFF8E9" transform="rotate(8 113 119)"/>
+    <ellipse cx="227" cy="119" rx="17" ry="11" fill="#FFF8E9" transform="rotate(-8 227 119)"/>
+  </g>
+
+  <!-- MOUTH -->
+  <g inkscape:groupmode="layer" inkscape:label="mouth" id="mouth">
+    <path d="M154 169 C158 165 164 163 170 163 C177 163 183 165 187 169 C188 174 184 181 170 186 C156 181 152 174 154 169 Z" fill="#3A140D"/>
+    <path d="M169 184 C169 191 166 196 160 199 M171 184 C171 191 174 196 180 199" fill="none" stroke="#2B0E06" stroke-width="5" stroke-linecap="round"/>
+    <path d="M124 193 C130 202 143 204 154 199 C161 196 165 193 170 193 C176 193 180 196 187 199 C198 204 211 202 216 193 C214 226 194 247 170 247 C146 247 126 226 124 193 Z" fill="#2A0B0E" stroke="#2B0E06" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M139 221 C148 212 160 209 170 209 C181 209 193 212 201 221 C196 236 185 244 170 244 C155 244 144 236 139 221 Z" fill="url(#tongueGrad)"/>
+    <path d="M137 194 C144 197 151 196 158 191 C161 197 179 197 182 191 C189 196 196 197 203 194" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

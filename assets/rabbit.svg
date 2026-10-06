@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1122" height="1402" viewBox="0 0 1122 1402">
+  <defs>
+    <radialGradient id="ivory" cx="50%" cy="36%" r="75%">
+      <stop offset="0" stop-color="#fffefb"/>
+      <stop offset="0.65" stop-color="#fffaf1"/>
+      <stop offset="1" stop-color="#f4e5d4"/>
+    </radialGradient>
+    <linearGradient id="ivorySoft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffefb"/>
+      <stop offset="1" stop-color="#f7ead9"/>
+    </linearGradient>
+    <linearGradient id="earPink" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ff9a9d"/>
+      <stop offset="0.55" stop-color="#ff858d"/>
+      <stop offset="1" stop-color="#ff6973"/>
+    </linearGradient>
+    <linearGradient id="blush" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9e9b"/>
+      <stop offset="1" stop-color="#ff8089"/>
+    </linearGradient>
+    <radialGradient id="eyeBrown" cx="38%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#571b0c"/>
+      <stop offset="0.65" stop-color="#351006"/>
+      <stop offset="1" stop-color="#260900"/>
+    </radialGradient>
+    <linearGradient id="mouthRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a81e34"/>
+      <stop offset="1" stop-color="#6f1020"/>
+    </linearGradient>
+    <linearGradient id="tonguePink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f65b77"/>
+      <stop offset="1" stop-color="#ff6a83"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8e8"/>
+      <stop offset="1" stop-color="#f4dfc6"/>
+    </linearGradient>
+    <linearGradient id="neckShadow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4dfc9" stop-opacity="0.30"/>
+      <stop offset="0.5" stop-color="#d9b997" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#f4dfc9" stop-opacity="0.30"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- body -->
+  <g inkscape:groupmode="layer" inkscape:label="body" id="body">
+    <!-- tail behind body -->
+    <path d="M805 1001 C862 974 905 992 911 1024 C947 1017 969 1044 959 1074 C987 1092 980 1128 952 1143 C962 1175 932 1204 900 1192 C882 1225 836 1228 819 1195 C791 1211 761 1185 774 1157 C744 1144 739 1107 766 1091 C752 1063 770 1028 801 1031 Z" fill="url(#ivorySoft)" stroke="#3a1208" stroke-width="20" stroke-linejoin="round"/>
+    <!-- tail highlights -->
+    <path d="M870 1019 C894 999 922 1007 928 1033 C947 1031 959 1048 955 1065 C941 1054 930 1046 915 1045 C911 1028 895 1019 870 1019Z" fill="#ffffff" opacity="0.92"/>
+    <path d="M818 1163 C841 1173 862 1172 883 1158 C875 1189 841 1201 815 1181 Z" fill="#f6e8d7" opacity="0.8"/>
+
+    <!-- torso -->
+    <path d="M365 923 C402 896 468 889 555 889 C647 889 716 900 758 934 C799 967 813 1030 805 1111 L792 1239 C786 1302 733 1337 676 1322 C638 1312 611 1284 605 1250 L516 1250 C509 1284 482 1312 442 1322 C385 1337 332 1303 327 1239 L316 1110 C309 1026 327 957 365 923Z" fill="url(#ivory)" stroke="#3a1208" stroke-width="22" stroke-linejoin="round"/>
+
+    <!-- left arm -->
+    <path d="M367 965 C318 965 286 987 267 1020 C250 1049 252 1080 270 1097 C286 1112 304 1107 316 1088 C307 1110 322 1131 344 1128 C363 1126 372 1114 380 1093 C383 1112 399 1126 417 1116 C433 1108 436 1094 434 1075 C434 1032 414 989 367 965Z" fill="url(#ivorySoft)" stroke="#3a1208" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- right arm -->
+    <path d="M744 966 C794 966 827 989 845 1021 C862 1050 859 1080 842 1097 C825 1112 808 1107 796 1088 C805 1110 790 1131 768 1128 C749 1126 740 1114 733 1093 C729 1113 713 1126 695 1116 C680 1107 677 1093 679 1075 C679 1032 698 989 744 966Z" fill="url(#ivorySoft)" stroke="#3a1208" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- left foot -->
+    <path d="M338 1231 C302 1237 276 1261 271 1292 C266 1326 294 1353 329 1354 L437 1354 C472 1354 494 1330 487 1302 C482 1277 459 1255 429 1248 C395 1239 372 1225 338 1231Z" fill="url(#ivorySoft)" stroke="#3a1208" stroke-width="20" stroke-linejoin="round"/>
+    <path d="M673 1249 C643 1256 621 1277 615 1302 C608 1330 630 1354 665 1354 L774 1354 C809 1353 837 1326 832 1292 C827 1261 801 1238 765 1231 C731 1225 708 1239 673 1249Z" fill="url(#ivorySoft)" stroke="#3a1208" stroke-width="20" stroke-linejoin="round"/>
+
+    <!-- paw toes -->
+    <path d="M318 1311 C310 1336 321 1354 341 1354" fill="none" stroke="#3a1208" stroke-width="10" stroke-linecap="round"/>
+    <path d="M366 1308 C359 1333 368 1354 388 1354" fill="none" stroke="#3a1208" stroke-width="10" stroke-linecap="round"/>
+    <path d="M414 1308 C408 1333 416 1354 437 1354" fill="none" stroke="#3a1208" stroke-width="10" stroke-linecap="round"/>
+    <path d="M687 1308 C681 1334 689 1354 710 1354" fill="none" stroke="#3a1208" stroke-width="10" stroke-linecap="round"/>
+    <path d="M735 1308 C728 1333 737 1354 757 1354" fill="none" stroke="#3a1208" stroke-width="10" stroke-linecap="round"/>
+    <path d="M783 1310 C775 1335 786 1354 805 1354" fill="none" stroke="#3a1208" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- subtle limb highlights -->
+    <path d="M294 1034 C277 1055 278 1073 288 1085 C297 1095 307 1090 315 1077 C304 1061 302 1048 308 1035Z" fill="#ffffff" opacity="0.6"/>
+    <path d="M828 1035 C846 1055 844 1074 834 1085 C825 1096 815 1090 807 1077 C818 1061 820 1048 815 1035Z" fill="#ffffff" opacity="0.6"/>
+  </g>
+
+  <!-- belly -->
+  <g inkscape:groupmode="layer" inkscape:label="belly" id="belly">
+    <!-- neck shadow under head -->
+    <path d="M384 921 C432 902 499 896 555 896 C617 896 682 903 731 924 C712 950 649 974 557 975 C463 974 402 953 384 921Z" fill="url(#neckShadow)"/>
+    <!-- belly patch -->
+    <path d="M414 1019 C421 955 469 919 553 919 C637 919 686 957 694 1019 L704 1124 C709 1185 660 1224 556 1224 C451 1224 403 1184 409 1124Z" fill="url(#cream)"/>
+    <ellipse cx="556" cy="1050" rx="110" ry="150" fill="#fff6e4" opacity="0.18"/>
+  </g>
+
+  <!-- ears -->
+  <g inkscape:groupmode="layer" inkscape:label="ears" id="ears">
+    <!-- left ear shell -->
+    <path d="M302 432 C255 410 200 375 163 325 C127 275 110 214 118 158 C126 101 158 56 205 33 C251 11 305 17 344 44 C389 75 418 129 429 190 C440 252 430 326 397 376 C373 412 337 431 302 432Z" fill="url(#ivory)" stroke="#3a1208" stroke-width="26" stroke-linejoin="round"/>
+    <!-- right ear shell -->
+    <path d="M819 432 C867 410 921 375 958 325 C995 275 1011 214 1004 158 C996 101 963 56 916 33 C870 11 816 17 777 44 C733 75 704 129 693 190 C682 252 692 326 725 376 C748 412 784 431 819 432Z" fill="url(#ivory)" stroke="#3a1208" stroke-width="26" stroke-linejoin="round"/>
+
+    <!-- inner pink left -->
+    <path d="M300 395 C260 374 221 341 198 303 C173 262 166 214 174 171 C182 127 204 101 236 100 C268 98 301 119 327 152 C355 187 370 233 371 277 C372 328 352 370 300 395Z" fill="url(#earPink)"/>
+    <path d="M288 386 C256 364 226 336 207 304 C186 270 178 236 178 207 C204 215 236 233 263 257 C295 286 317 324 322 361 C314 372 303 381 288 386Z" fill="#ff9a9c" opacity="0.55"/>
+    <ellipse cx="224" cy="205" rx="17" ry="55" fill="#ffb9ba" opacity="0.85"/>
+
+    <!-- inner pink right -->
+    <path d="M821 395 C861 374 900 341 924 303 C949 262 955 214 948 171 C940 127 917 101 886 100 C853 98 821 119 795 152 C767 187 752 233 751 277 C749 328 770 370 821 395Z" fill="url(#earPink)"/>
+    <path d="M834 386 C866 364 895 336 915 304 C935 270 943 236 943 207 C917 215 886 233 859 257 C826 286 804 324 800 361 C808 372 819 381 834 386Z" fill="#ff9a9c" opacity="0.55"/>
+    <ellipse cx="897" cy="205" rx="17" ry="55" fill="#ffb9ba" opacity="0.85"/>
+
+    <!-- base dark separators -->
+    <path d="M299 428 C315 398 344 372 389 357" fill="none" stroke="#3a1208" stroke-width="13" stroke-linecap="round"/>
+    <path d="M823 428 C806 398 777 372 733 357" fill="none" stroke="#3a1208" stroke-width="13" stroke-linecap="round"/>
+  </g>
+
+  <!-- head -->
+  <g inkscape:groupmode="layer" inkscape:label="head" id="head">
+    <!-- head silhouette -->
+    <path d="M552 313 C650 308 740 327 807 373 C876 421 921 488 945 566 C965 630 985 698 969 762 C951 838 894 891 813 918 C742 942 649 950 556 949 C460 950 367 943 296 918 C215 890 158 837 141 762 C126 697 145 629 165 566 C188 488 233 420 302 373 C369 327 458 308 552 313Z" fill="url(#ivory)" stroke="#3a1208" stroke-width="26" stroke-linejoin="round"/>
+
+    <!-- cheeks / muzzle -->
+    <ellipse cx="301" cy="733" rx="151" ry="74" fill="#fff9ea" opacity="0.97"/>
+    <ellipse cx="811" cy="733" rx="151" ry="74" fill="#fff9ea" opacity="0.97"/>
+    <ellipse cx="556" cy="704" rx="137" ry="71" fill="#fff9eb" opacity="0.98"/>
+
+    <!-- blush -->
+    <ellipse cx="280" cy="737" rx="55" ry="43" fill="url(#blush)"/>
+    <ellipse cx="832" cy="737" rx="55" ry="43" fill="url(#blush)"/>
+
+    <!-- brows -->
+    <ellipse cx="398" cy="509" rx="45" ry="27" fill="#f8e9d2"/>
+    <ellipse cx="714" cy="509" rx="45" ry="27" fill="#f8e9d2"/>
+
+    <!-- eye sockets / subtle rings -->
+    <ellipse cx="365" cy="643" rx="88" ry="79" fill="#fffdfa" stroke="#f7e4ca" stroke-width="6"/>
+    <ellipse cx="747" cy="643" rx="88" ry="79" fill="#fffdfa" stroke="#f7e4ca" stroke-width="6"/>
+  </g>
+
+  <!-- eyes -->
+  <g inkscape:groupmode="layer" inkscape:label="eyes" id="eyes">
+    <ellipse cx="380" cy="648" rx="58" ry="70" fill="url(#eyeBrown)"/>
+    <ellipse cx="732" cy="648" rx="58" ry="70" fill="url(#eyeBrown)"/>
+    <ellipse cx="397" cy="614" rx="17" ry="17" fill="#ffffff"/>
+    <ellipse cx="715" cy="614" rx="17" ry="17" fill="#ffffff"/>
+    <ellipse cx="393" cy="609" rx="5" ry="5" fill="#f7f7f7" opacity="0.85"/>
+    <ellipse cx="711" cy="609" rx="5" ry="5" fill="#f7f7f7" opacity="0.85"/>
+  </g>
+
+  <!-- mouth -->
+  <g inkscape:groupmode="layer" inkscape:label="mouth" id="mouth">
+    <!-- nose -->
+    <path d="M516 671 C529 656 579 656 596 671 C604 679 591 695 556 714 C519 695 508 679 516 671Z" fill="#54180d"/>
+    <!-- smile lines -->
+    <path d="M555 711 C555 729 530 740 500 741 C479 742 457 735 443 724" fill="none" stroke="#3a1208" stroke-width="11" stroke-linecap="round"/>
+    <path d="M556 711 C556 729 582 740 612 741 C633 742 655 735 668 724" fill="none" stroke="#3a1208" stroke-width="11" stroke-linecap="round"/>
+
+    <!-- open mouth -->
+    <path d="M442 733 C466 749 494 754 523 749 C545 745 556 740 556 740 C556 740 568 745 590 749 C620 755 647 749 670 733 C666 800 634 861 556 876 C478 861 446 800 442 733Z" fill="url(#mouthRed)" stroke="#3a1208" stroke-width="14" stroke-linejoin="round"/>
+    <!-- dark upper mouth cavity -->
+    <path d="M454 752 C487 763 519 765 556 754 C592 765 625 763 658 752 C652 782 638 807 619 825 C597 846 575 854 556 857 C536 854 514 846 492 825 C472 806 459 782 454 752Z" fill="#7b1424" opacity="0.78"/>
+    <!-- tongue -->
+    <path d="M489 822 C508 798 534 787 556 787 C579 787 605 798 624 822 C610 849 586 864 556 868 C526 864 502 849 489 822Z" fill="url(#tonguePink)"/>
+    <path d="M506 819 C527 803 546 798 567 799" fill="none" stroke="#ff7c91" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+  </g>
+</svg>

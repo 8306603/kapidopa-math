@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2ede6">
+  <title>帮助中心与技术支持 — 动物派对数学 (Animal Party Math)</title>
+  <meta name="description" content="《动物派对数学》官方帮助中心与技术支持：体力恢复规则、恢复购买说明、声音排查与官方支持邮箱 diowang@gmail.com。">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-initial-view="support">
+
+  <main class="board-stage">
+    <!-- Top Header Navigation -->
+    <header class="board-header">
+      <nav class="board-nav-pill-group" aria-label="网站导航">
+        <button class="board-nav-item" data-view="home" data-nav-item="navHome">首页</button>
+        <button class="board-nav-item" data-view="features" data-nav-item="navFeatures">功能介绍</button>
+        <button class="board-nav-item is-active" data-view="support" data-nav-item="navSupport">帮助中心</button>
+        <button class="board-nav-item" data-view="privacy" data-nav-item="navPrivacy">隐私政策</button>
+      </nav>
+
+      <div class="board-actions">
+        <div class="lang-select-pill">
+          <select id="langSelect" class="lang-select-dropdown" aria-label="切换语言">
+            <option value="zhHans">简体中文</option>
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+          </select>
+          <span class="lang-arrow">▾</span>
+        </div>
+
+        <a href="https://apps.apple.com/app/id6742512613" target="_blank" rel="noopener noreferrer" class="btn-appstore-badge" aria-label="在 App Store 上下载">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 4.54c.64-.78 1.08-1.86.96-2.94-1 .04-2.15.65-2.82 1.44-.59.68-1.11 1.77-.97 2.83 1.13.09 2.22-.57 2.83-1.33z"/>
+          </svg>
+          <div class="btn-appstore-text">
+            <small>Download on the</small>
+            <span>App Store</span>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <!-- VIEW 1: 首页 (Home) -->
+    <section class="view-panel" id="view-home">
+      <div class="chalkboard-container">
+        <div class="chalkboard-wrapper">
+          <img src="assets/frog.png" alt="呱宝" class="mascot-sticker sticker-frog" title="小青蛙 · 呱宝">
+          <img src="assets/dog.png" alt="柴小呆" class="mascot-sticker sticker-shiba" title="秋田犬 · 柴小呆">
+          <img src="assets/elephant.png" alt="波波" class="mascot-sticker sticker-elephant" title="波波象 · 波波">
+          <img src="assets/rabbit.png" alt="朵朵兔" class="mascot-sticker sticker-rabbit" title="小白兔 · 朵朵兔">
+
+          <div class="wooden-chalkboard" id="chalkboard" title="点击切换算式">
+            <div class="chalkboard-formula" id="chalkFormula">7 + 8 = 15</div>
+            <div class="chalk-tray">
+              <div class="chalk-piece"></div>
+              <div class="chalk-eraser"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-lead-group">
+        <h1 class="home-headline" id="homeHeadline">每一道算术题，都是一场欢快派对！</h1>
+        <p class="home-subtext" id="homeSubtext">
+          专为小学 1~6 年级设计的趣味算术练习应用。萌宠伙伴运送数字，答对越多音乐与庆典越嗨。纯单机无广告，保护视力与专注。
+        </p>
+      </div>
+
+      <div class="cards-row-stamped" id="homeStampCards"></div>
+    </section>
+
+    <!-- VIEW 2: 功能介绍 (Features) -->
+    <section class="view-panel" id="view-features">
+      <div class="section-page-header">
+        <h2 class="section-page-title" id="featuresTitle">核心功能与教学设计</h2>
+        <p class="section-page-desc" id="featuresDesc">
+          告别枯燥的机械刷题，通过科学的进阶体系与即时正向反馈激发孩子的数学自驱力。
+        </p>
+      </div>
+
+      <div class="features-grid-stamped" id="featuresGrid"></div>
+    </section>
+
+    <!-- VIEW 3: 帮助中心 (Support) -->
+    <section class="view-panel is-active" id="view-support">
+      <div class="section-page-header">
+        <h2 class="section-page-title" id="supportTitle">帮助中心与技术支持</h2>
+        <p class="section-page-desc" id="supportDesc">
+          常见使用说明、体力规则与开发者官方直接支持通道。
+        </p>
+      </div>
+
+      <div class="support-email-box">
+        <div class="support-email-text">
+          <h3 id="supportContactTitle">需要进一步协助？</h3>
+          <p id="supportContactDesc">如果您在使用过程中遇到任何疑问、应用异常或建议，欢迎随时给我们发送邮件，通常会在 24~48 小时内为您回复。</p>
+        </div>
+        <a href="mailto:diowang@gmail.com" class="btn-email-link">diowang@gmail.com</a>
+      </div>
+
+      <div class="faq-list-wrapper" id="supportFaqList"></div>
+    </section>
+
+    <!-- VIEW 4: 隐私政策 (Privacy) -->
+    <section class="view-panel" id="view-privacy">
+      <div class="section-page-header">
+        <h2 class="section-page-title" id="privacyTitle">隐私政策与关于</h2>
+        <p class="section-page-desc" id="privacyDesc">
+          《动物派对数学》严格遵循本地优先、无广告、保护儿童隐私的设计原则。
+        </p>
+      </div>
+
+      <div class="privacy-sections-wrapper" id="privacySectionsList"></div>
+    </section>
+
+    <footer class="board-footer">
+      <span id="footerCopyright">© 2026 动物派对数学 (Animal Party Math). 保留所有权利。</span>
+      <span id="footerBadge">Pure Offline & Ad-Free</span>
+    </footer>
+  </main>
+
+  <script src="site.js"></script>
+</body>
+</html>
